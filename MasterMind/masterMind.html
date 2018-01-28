@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Master Mind</title>
+    <script src="funciones.js"></script>
+    <link rel="stylesheet" href="mastermind.css">
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
+  </head>
+  <body>
+    <div id="combinacion">
+      <div id="millar" style="opacity:1">
+        <a class="up" ><img src="imagenes/flechaUpSelect.png" width=50px border="0"></a>
+        <p>0</p>
+        <a class="down"><img src="imagenes/flechaDownSelect.png" width=50px border="0"></a>
+      </div>
+      <div id="centenas" style="opacity:0.5">
+        <a class="up"><img src="imagenes/flechaUpSelect.png" width=50px border="0"></a>
+        <p>0</p>
+        <a class="down"><img src="imagenes/flechaDownSelect.png" width=50px border="0"></a>
+      </div>
+      <div id="decenas" style="opacity:0.5">
+        <a class="up"><img src="imagenes/flechaUpSelect.png" width=50px border="0"></a>
+        <p>0</p>
+        <a class="down"><img src="imagenes/flechaDownSelect.png" width=50px border="0"></a>
+      </div>
+      <div id="unidades" style="opacity:0.5">
+        <a class="up"><img src="imagenes/flechaUpSelect.png" width=50px border="0"></a>
+        <p>0</p>
+        <a class="down"><img src="imagenes/flechaDownSelect.png" width=50px border="0"></a>
+      </div>
+    </div>
+    <div id="movil">
+      <button type="button" id="enter">ENTER</button>
+      <button type="button" id="reset">RESET</button>
+      <div id="tabla">
+        <table>
+          <thead>
+            <tr>
+              <th colspan="3">Adivina el código de la caja fuerte. Los dígitos no se pueden repetir, si un dígito coincide con uno de la clave se contara como un herido, si ademas esta en la misma posición sera un muerto.</th>
+            </tr>
+            <tr>
+              <th colspan="3">---------------</th>
+            </tr>
+            <tr>
+              <th>Números</th>
+              <th>Muertos</th>
+              <th>Heridos</th>
+            </tr>
+            <tr id="error">
+            </tr>
+          </thead>
+          <tbody >
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

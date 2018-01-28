@@ -1,0 +1,106 @@
+body{
+  background: url(imagenes/fondoCerrado.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-right: 0px;
+  margin-top: 0px;
+  overflow-y:hidden;
+  user-select: none;
+}
+#botonFinal{
+  margin-top: 50px;
+  margin-left: 50px;
+  /*color: #69f91a;
+  background-color: transparent;*/
+  font-weight: bold;
+  position:absolute;
+  height: 20px;
+  width: 60px;
+  /*border-color: #69f91a;*/
+}
+#enter{
+  margin-top: 54px;
+  margin-left: 125px;
+  color: #69f91a;
+  background-color: transparent;
+  position:absolute;
+  height: 20px;
+  width: 60px;
+  border-color: #69f91a;
+}
+#reset{
+  margin-top: 54px;
+  margin-left: 190px;
+  color: #69f91a;
+  background-color: transparent;
+  position:absolute;
+  height: 20px;
+  width: 60px;
+  border-color: #69f91a;
+}
+tbody tr:first-child{
+  background-color: white;
+  color:black;
+  font-weight:  bold;
+}
+#movil{
+  background: url(imagenes/telefono.png) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 512px;
+  width: 267px;
+  margin-left: 20%;
+  margin-right: auto;
+  display:flex;
+}
+#tabla{
+    color: #69f91a;
+    margin-top: 90px;
+    margin-left: 20px;
+    height:270px;
+    width:225px;
+}
+#error{
+  color: red;
+}
+#combinacion{
+  background: url(imagenes/rueda2.png) no-repeat;
+height: 234px;
+width: 593px;
+margin-left: auto;
+margin-right: auto;
+display:flex;
+}
+#millar{
+display:inline-block;
+margin-left: 66px;
+font-size: 100px;
+}
+#centenas{
+display:inline-block;
+margin-left: 79px;
+font-size: 100px;
+}
+#decenas{
+display:inline-block;
+margin-left: 79px;
+font-size: 100px;
+}
+#unidades{
+display:inline-block;
+margin-left: 79px;
+font-size: 100px;
+}
+div div p{
+  margin-top: -40px;
+  padding-top: 0px;
+  margin-bottom: -85px;
+}
+div div{
+  margin-top: -13px;
+  padding-top: 0px;
+}
